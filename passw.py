@@ -1,0 +1,1 @@
+PASSWORD = 'taitotalo666'
