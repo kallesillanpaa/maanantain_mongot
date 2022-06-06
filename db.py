@@ -11,5 +11,21 @@ albums = db.Albums  #luo autom.jos ei ole
                     #mutta näyttää ne vasta
                     # kun siellä on dataa
 
+# --------------------------------------------------
+
 # tulostetaan tietokannan collectioneiden nimet:
-print(db.list_collection_names())
+# print(db.list_collection_names())
+
+# # kaikkien tietueiden haku:
+# for row in albums.find():
+#     print(row['artist'],row['album']) 
+# #     #joka rivin artist-keyn value
+
+# #yhden tietueen haku:
+# res = albums.find_one()
+# print(res)
+
+# #haku tietyn kentän mukaan:
+# res = albums.find_one({'album':'Fireball'})
+# print(res)
+
